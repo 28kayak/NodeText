@@ -1,0 +1,8 @@
+var dt = new Date();
+var y = dt.getFullYear();
+var m = dt.getMonth();
+m = m + 1;//since js represent month between 0 and 11, so add one to adjust.
+var d = dt.getDate();
+
+getData() returns the day of the month, while getDay() returns the day of the week.
+getMonth() returns the number between 0 and 11. So, need adjustment.
