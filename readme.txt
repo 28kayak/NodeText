@@ -1,0 +1,2 @@
+All sample code is from the book
+https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E9%80%9A%E7%94%A8%E3%81%99%E3%82%8B%E5%8A%9B%E3%82%92%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%82%8B%E3%80%80Node-js%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-%E6%8E%8C%E7%94%B0%E6%B4%A5%E8%80%B6%E4%B9%83-ebook/dp/B00J7EOGK0/ref=sr_1_5?s=books&ie=UTF8&qid=1475629381&sr=1-5&keywords=node.js
