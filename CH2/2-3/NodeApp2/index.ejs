@@ -1,0 +1,36 @@
+<!-- List 2-16 var -->
+<!-- Scritp betweem <%  %> is run on serverside, while <script></script> is run on the browser -->
+<%
+var dt = new Date();
+var y = dt.getFullYear();
+var m = dt.getMonth();
+m = m + 1;//since js represent month between 0 and 11, so add one to adjust.
+var d = dt.getDate();
+console.log(m+"/" + d + "/" + y +"\n Have a nice day!");
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%=title %></title>
+    <link type="text/css" href="./style.css" rel="stylesheet">
+</head>
+<body>
+<h1><%=title %></h1>
+<p><%=msg %></p>
+<p>Today is: <%=m+"/" + d + "/" + y +"\n Have a nice day!" %></p>
+<script>
+    var dt = new Date();
+    var y = dt.getFullYear();
+    var m = dt.getMonth();
+    m = m + 1;//since js represent month between 0 and 11, so add one to adjust.
+    var d = dt.getDate();
+    document.write(m+"/" + d + "/" + y +"\n Have a nice day!");
+    console.log(m+"/" + d + "/" + y +"\n Have a nice day!");
+
+
+</script>
+</body>
+
+</html>
